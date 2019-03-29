@@ -60,7 +60,7 @@ void loop(void) {
           break;
         case BK_LIGHT_OFF:
             for (int i = 0; i < NUMPIXELS; i++) {
-                pixels.setPixelColor(i, pixels.Color(255,55,0)); //#7
+                pixels.setPixelColor(i, pixels.Color(0,255,0)); //#7
             }
             pixels.show();
           break;
